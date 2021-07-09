@@ -40,19 +40,4 @@ for (i in 1:270){
         male1=male1+1
         rt[i,12]<-1}  #????????Ϊ-1
       }
-for (i in 1:270){
-  count<-0
-  if (rt[i,1]=='Ů'){
-    female=female+1
-    if (BMI[i]>=25)
-      count=count+1
-    if (FPG[i]>=6.1)
-      count=count+1
-    if (SBP[i]>=140 | DBP[i]>=90)
-      count=count+1
-    if (TG[i]>=1.7 | HDLC[i]<1)
-      count=count+1 }
-      if (count>=3){
-        female1=female1+1
-        rt[i,12]<-1}
-  }
+test 3
